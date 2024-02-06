@@ -1,2 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="edu.kh.ingeritance.model.dto.Parent"/>
+    <fullyQualifiedTypeName name="edu.kh.ingeritance.model.dto.Child1"/>
+</qualifiedTypeNameHistroy>
