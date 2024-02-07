@@ -2,4 +2,8 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="edu.kh.ingeritance.model.dto.Parent"/>
     <fullyQualifiedTypeName name="edu.kh.ingeritance.model.dto.Child1"/>
+    <fullyQualifiedTypeName name="edu.kh.poly.pack1.moedl.service.PolyService"/>
+    <fullyQualifiedTypeName name="edu.kh.poly.pack1.moedl.dto.Iphone"/>
+    <fullyQualifiedTypeName name="edu.kh.poly.pack1.moedl.dto.SmartPhone"/>
+    <fullyQualifiedTypeName name="edu.kh.poly.pack1.moedl.dto.Galaxy"/>
 </qualifiedTypeNameHistroy>
