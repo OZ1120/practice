@@ -1,5 +1,7 @@
 package edu.kh.collection.pack2.model.dto;
 
+import java.util.Objects;
+
 public class Person {
 
 	private String name;
@@ -45,8 +47,6 @@ public class Person {
 	public String toString() {
 		return "Person [name=" + name + ", age=" + age + ", gender=" + gender + "]";
 	}
-	
-	
 	
 	
 }
