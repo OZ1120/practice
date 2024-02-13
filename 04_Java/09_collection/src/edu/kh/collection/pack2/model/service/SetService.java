@@ -6,6 +6,8 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
+import edu.kh.collection.pack2.model.dto.Person;
+
 public class SetService {
 
 	// HashSet 사용법
@@ -104,6 +106,32 @@ public class SetService {
 	
 	public void method3() {
 		
+		Person p1 = new Person("홍길동", 25, '남'); 
+		Person p2 = new Person("홍길동", 25, '남'); 
+		Person p3 = new Person("홍길동", 30, '남');
+		Person p4 = new Person("김길순", 20, '여'); 
+
+		System.out.println("p1 : " + p1.hashCode());// 번호 같음
+		System.out.println("p2 : " + p2.hashCode());// 번호 같음
+		System.out.println("p3 : " + p3.hashCode());
+		System.out.println("p4 : " + p4.hashCode());// -나오는건 오버플로우되어서
+		
+		// 값이 같다면 true, 다르면 false
+		System.out.println(p1.equals(p4));
+		System.out.println(p1.equals(p2));
+
+		Set<Person> personSet = new HashSet<Person>();
+		personSet.add(p1);
+		personSet.add(p2);
+		personSet.add(p3);
+		personSet.add(p4);
+
+		System.out.println("-------------------------------------");
+		for(Person p : personSet) {
+			System.out.println(p); // 25세 홍길동이 한번만 출력! 중복 제거됨
+		}
+		// 오버라이딩 제대로 안해놓으면 안된다
+		// hash 컬렉션 이용할때 hashCode(), equals() 오버라이딩 꼭 해라
 	}
 	
 	
