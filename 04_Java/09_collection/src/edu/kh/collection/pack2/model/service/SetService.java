@@ -1,6 +1,9 @@
 package edu.kh.collection.pack2.model.service;
 
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
 import java.util.Set;
 
 public class SetService {
@@ -56,6 +59,53 @@ public class SetService {
 		System.out.println("비어있음?? : " + set.isEmpty());
 	
 	} // HashSet 메서드 확인 코드
+	
+	// Set에 저장된 요소(객체)를 꺼내는 방법
+	public void method2() {
+		
+		Set<String> set = new HashSet<String>();
+		
+		set.add("일본");
+		set.add("미국");
+		set.add("중국");
+		set.add("영국");
+		set.add("프랑스");
+		
+		// 현재 Set 순차접근 가능한 Iterator 객체 반환
+		Iterator<String> it = set.iterator();
+		
+		
+		System.out.println("[Iterator]");
+		while(it.hasNext()) {
+			//다음요소 있음 반복 없음 멈춤
+			
+			String temp = it.next();
+			System.out.println(temp);
+		}
+
+		System.out.println("--------------------------------------");
+		System.out.println("[List로 변환]");
+		
+		// set -> list  객체사용 list생성
+		List<String> list = new ArrayList<String>(set);
+		
+		for(int i=0; i<list.size() ;i++) {
+			System.out.println(list.get(i));
+								// 가져와 얻어와
+		}
+		
+		System.out.println("-----------------------------------------");
+		System.out.println("[향상된 for문]");
+		
+		for(String snack : set) {
+			System.out.println(snack);
+		}
+	}
+	
+	public void method3() {
+		
+	}
+	
 	
 	
 }
