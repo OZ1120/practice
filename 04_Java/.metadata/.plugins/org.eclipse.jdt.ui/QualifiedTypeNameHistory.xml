@@ -6,4 +6,14 @@
     <fullyQualifiedTypeName name="edu.kh.poly.pack1.moedl.dto.Iphone"/>
     <fullyQualifiedTypeName name="edu.kh.poly.pack1.moedl.dto.SmartPhone"/>
     <fullyQualifiedTypeName name="edu.kh.poly.pack1.moedl.dto.Galaxy"/>
+    <fullyQualifiedTypeName name="edu.kh.collection.pack2.model.service.SetService"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Objects"/>
+    <fullyQualifiedTypeName name="edu.kh.collection.pack2.model.dto.Person"/>
+    <fullyQualifiedTypeName name="edu.kh.collection.pack3.model.service.MapService"/>
 </qualifiedTypeNameHistroy>
