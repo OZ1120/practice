@@ -16,4 +16,5 @@
     <fullyQualifiedTypeName name="java.util.Objects"/>
     <fullyQualifiedTypeName name="edu.kh.collection.pack2.model.dto.Person"/>
     <fullyQualifiedTypeName name="edu.kh.collection.pack3.model.service.MapService"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
 </qualifiedTypeNameHistroy>
